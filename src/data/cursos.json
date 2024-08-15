@@ -1,0 +1,22 @@
+[
+    {
+         "id": 1,
+         "descrip": "hidroponia I",
+         "horas": 50
+    },
+    {
+         "id": 2,
+         "descrip": "living soil",
+         "horas": 30
+    },
+    {
+         "id": 3,
+         "descrip": "seleccion y produccion de semillas",
+         "horas": 40
+    },
+    {
+         "id": 4,
+         "descrip": "tipo de iluminacion",
+         "horas": 24
+    }
+]

@@ -7,8 +7,8 @@ import { SociosManager } from './dao/SociosManager.js';
 import { ActividadesManager } from './dao/ActividadesManager.js';
 import { CursosManager } from './dao/CursosManager.js';
 
-SociosManager.path="./src/data/alumnos.json"
-ActividadesManager.path="./src/data/carreras.json"
+SociosManager.path="./src/data/socios.json"
+ActividadesManager.path="./src/data/actividades.json"
 CursosManager.path="./src/data/cursos.json"
 
 const PORT=3000;
