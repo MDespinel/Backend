@@ -2,25 +2,25 @@
     {
          "id": 1,
          "nombre": "Rodigo",
-         "email": "Rodigo420@test.com",
-         "carreraID": 1
+         "email": "rodigo420@test.com",
+         "actividadID": 1
     },
     {
          "id": 2,
          "nombre": "Juliana",
          "email": "juliana710@test.com",
-         "carreraID": 2
+         "actividadID": 2
     },
     {
          "id": 3,
          "nombre": "Marian",
          "email": "marian@test.com",
-         "carreraID": 3
+         "actividadID": 3
     },
     {
          "id": 4,
          "nombre": "Florencia",
          "email": "florencia.420@test.com",
-         "carreraID": 4
+         "actividadID": 4
     }
 ]

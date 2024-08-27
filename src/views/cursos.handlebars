@@ -1,0 +1,20 @@
+<h2>Cursos</h2>
+<hr>
+<h2 id="socio" data-actividad="{{socio.actividadID}}">Cursos de {{socio.nombre}} - legajo: {{socio.id}}</h2>
+<ul>
+    {{#each actividad.cursando}}
+        <li>{{descrip}} - inscripciones: {{inscripciones}}</li>
+    {{/each}}
+</ul>
+<hr>
+<h2>Cursos disponibles</h2>
+<ul id="cursos">
+    {{#each cursos}}
+        <li>{{descrip}} <button onclick="inscribirseCurso({{id}})">Inscribirse</button></li>
+    {{/each}}
+</ul>
+<br>
+<a href="/">volver a socios</a>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/cursos.js"></script>

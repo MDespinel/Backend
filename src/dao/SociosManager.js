@@ -16,7 +16,7 @@ export class SociosManager{
         if(!socio.email){
             throw new Error("email es requerido")
         }
-        let alumnos=await this.get()
+        let socios=await this.get()
         let existe=socio.find(a=>a.email===socio.email)
         if(existe){
             throw new Error(`${socio.email} ya existe en DB`)
@@ -26,7 +26,7 @@ export class SociosManager{
             id=Math.max(...socio.map(d=>d.id))+1
         }
 
-        let carreraID=await ActividadesManager.create()
+        let actividadID=await ActividadesManager.create()
 
         let nuevoSocio={
             id, 
@@ -40,5 +40,3 @@ export class SociosManager{
 
 }
 
-// SociosManager.path
-// const SociosManager=new SociosManager()

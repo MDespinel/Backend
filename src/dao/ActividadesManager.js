@@ -14,7 +14,7 @@ export class ActividadesManager{
         let actividades=await this.get()
         let id=1
         if(actividades.length>0){
-            id=Math.max(...carreras.map(d=>d.id))+1
+            id=Math.max(...actividades.map(d=>d.id))+1
         }
         actividades.push({
             id, 
@@ -26,7 +26,7 @@ export class ActividadesManager{
 
     static async update(id, actividad={}){
         let actividades=await this.get()
-        let indiceActividad=actividad.findIndex(c=>c.id===id)
+        let indiceActividad=actividades.findIndex(c=>c.id===id)
         if(indiceActividad===-1){
             throw new Error(`${id} de actividad inexistente`)
         }

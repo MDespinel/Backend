@@ -1,45 +1,66 @@
 [
-    {
-         "id": 1,
-         "cursando": [
-              {
-                   "cursoID": 4,
-                   "inscripciones": 3
-              },
-              {
-                   "cursoID": 2,
-                   "inscripciones": 1
-              }
-         ]
-    },
-    {
-         "id": 2,
-         "cursando": [
-              {
-                   "cursoID": 2,
-                   "inscripciones": 2
-              }
-         ]
-    },
-    {
-         "id": 3,
-         "cursando": [
-              {
-                   "cursoID": 3,
-                   "inscripciones": 2
-              },
-              {
-                   "cursoID": 1,
-                   "inscripciones": 3
-              },
-              {
-                   "cursoID": 4,
-                   "inscripciones": 1
-              }
-         ]
-    },
-    {
-         "id": 4,
-         "cursando": []
-    }
+     {
+          "id": 1,
+          "cursando": [
+               {
+                    "cursoID": 4,
+                    "inscripciones": 3
+               },
+               {
+                    "cursoID": 2,
+                    "inscripciones": 1
+               },
+               {
+                    "cursoID": 1,
+                    "inscripciones": 31
+               }
+          ]
+     },
+     {
+          "id": 2,
+          "cursando": [
+               {
+                    "cursoID": 2,
+                    "inscripciones": 13
+               },
+               {
+                    "cursoID": 4,
+                    "inscripciones": 4
+               },
+               {
+                    "cursoID": 1,
+                    "inscripciones": 1
+               },
+               {
+                    "cursoID": 3,
+                    "inscripciones": 1
+               }
+          ]
+     },
+     {
+          "id": 3,
+          "cursando": [
+               {
+                    "cursoID": 3,
+                    "inscripciones": 5
+               },
+               {
+                    "cursoID": 1,
+                    "inscripciones": 3
+               },
+               {
+                    "cursoID": 4,
+                    "inscripciones": 1
+               }
+          ]
+     },
+     {
+          "id": 4,
+          "cursando": [
+               {
+                    "cursoID": 4,
+                    "inscripciones": 3
+               }
+          ]
+     }
 ]
