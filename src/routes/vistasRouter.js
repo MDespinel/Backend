@@ -51,8 +51,7 @@ router.get('/cursos', async(req,res)=>{
         }
     })
 
-    console.log(actividad)
-
+    
     res.setHeader('Content-Type','text/html')
     res.status(200).render("cursos",{
         socio,
